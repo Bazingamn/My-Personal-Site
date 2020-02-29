@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <h1 class="col-12 mt-4 mb-4">{{ article.title }}</h1>
+        <div class="col-12 alert alert-success">作者：{{ article.author }}
+            {% if user == article.author %}
+                <a href="#" onclick="confirm_delete()">删除文章</a>
+                <a href="{% url 'article:article_update' article.id %}">编辑文章</a>
+                <div>浏览：{{ article.total_views }}</div>
+            {% endif %}
+        </div>
+        <div class="col-12"><p>{{ article.body|safe }}</p></div>
+    </div>
+
+    <!-- 发表评论 -->
+    <hr>
+    {% if user.is_authenticated %}
+        <div>
+            <form
+                action="{% url 'comment:post_comment' article.id %}"
+                method="POST"
+            >
+            {% csrf_token %}
+                <div class="form-group">
+                    <label for="body">
+                        <strong>
+                            发表评论：
+                        </strong>
+                    </label>
+                    <textarea
+                        type="text"
+                        class="form-control"
+                        id="body"
+                        name="body"
+                        rows="2"></textarea>
+                </div>
+                <!-- 提交按钮 -->
+                <button type="submit" class="btn btn-primary ">提交</button>
+            </form>
+        </div>
+        <br>
+    {% else %}
+        <br>
+        <h5 class="row justify-content-center">
+            请<a href="{% url 'userprofile:login' %}">登录</a>后回复
+        </h5>
+        <br>
+    {% endif %}
+
+    <!-- 显示评论 -->
+    <h4>共有{{ comments.count }}条评论</h4>
+    <div>
+        {% for comment in comments %}
+            <hr>
+            <p>
+                <strong style="color: pink">
+                    {{ comment.user }}
+                </strong> 于
+                <span style="color: green">
+                    {{ comment.created|date:"Y-m-d H:i:s" }}
+                </span> 时发表评论：
+            </p>
+            <pre style="font-family: inherit; font-size: 1em;">
+                {{ comment.body }}
+            </pre>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    function confirm_delete(){
+        layer.open({
+            title:"确认删除",
+            content:"确认删除这篇文章吗？",
+            yes: function(index, layero){
+                location.href='{% url "article:article_delete" article.id %}'
+            },
+        })
+    }
+</script>
+
+{% endblock content %}

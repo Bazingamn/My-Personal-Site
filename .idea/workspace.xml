@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61f610be-eba9-4222-b1b2-37aaa587192a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/article/migrations/0002_auto_20200222_0945.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/migrations/0002_articlepost_total_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/article/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/templates/article/myblog.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/templates/article/myblog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/article/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/migrations/0002_auto_20190519_1020.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0002_auto_20190416_1011.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0003_auto_20190416_1013.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0004_weathers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0005_phones.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0006_auto_20190418_2230.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0007_auto_20190418_2234.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0008_auto_20190418_2235.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0009_auto_20190419_0818.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0010_articlepost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/0011_auto_20190509_1545.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/css/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/static/popper/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/templates/mymovie/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/templates/mymovie/phoneshow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/templates/mymovie/showlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/templates/mymovie/weathershow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymovie/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/static/polls/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Xy5OXu6ahQ6lSNkyMK3MjsM32M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="E:/DjangoProject/NewsSite" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web开发\MyFirstBlog\mysite\article\static\icons" />
+      <recent name="E:\web开发\MyFirstBlog\mysite\article\static\bootstrap\css" />
+      <recent name="E:\web开发\MyFirstBlog\mysite\mymovie\static\bootstrap\css" />
+      <recent name="E:\web开发\MyFirstBlog\mysite\userprofile\static\bootstrap\img" />
+      <recent name="E:\web开发\MyFirstBlog\mysite\userprofile\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\web开发\MyFirstBlog\mysite\userprofile\static" />
+      <recent name="E:\web开发\MyFirstBlog\mysite\userprofile\static\bootstrap\css" />
+      <recent name="E:\web开发\MyFirstBlog\mysite\article\templates\article" />
+      <recent name="E:\web开发\mysite\polls\templates" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61f610be-eba9-4222-b1b2-37aaa587192a" name="Default Changelist" comment="" />
+      <created>1551685503909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551685503909</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1582015081041">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582015081041" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1582331486667">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582331486667" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1582005721481">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582005721481" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1582942274889">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582942274889" />
+  </component>
+</project>
